@@ -12,8 +12,8 @@ import Location from "../field_types/location";
 import Boolean from "../field_types/boolean";
 import EntryReference from "../field_types/entryReference";
 import EntryReferenceMany from "../field_types/entryReferenceMany";
-import AssetReference from "../field_types/assetReference";
-import AssetReferenceMany from "../field_types/assetReferenceMany";
+import MediaReference from "../field_types/mediaReference";
+import MediaReferenceMany from "../field_types/mediaReferenceMany";
 
 const Field = () => {
   const sdk = useSDK();
@@ -51,7 +51,7 @@ const Field = () => {
 
             case "Asset":
               returnObject = (
-                <AssetReferenceMany sdk={sdk}></AssetReferenceMany>
+                <MediaReferenceMany sdk={sdk}></MediaReferenceMany>
               );
               break;
             default:
@@ -91,14 +91,14 @@ const Field = () => {
           returnObject = <EntryReference sdk={sdk}></EntryReference>;
           break;
         case "Asset":
-          returnObject = <AssetReference sdk={sdk}></AssetReference>;
+          returnObject = <MediaReference sdk={sdk}></MediaReference>;
           break;
         default:
           break;
       }
       break;
 
-    default:
+    default: <div>Nothing could be rendered</div>
       break;
   }
 

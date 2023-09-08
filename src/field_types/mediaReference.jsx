@@ -3,7 +3,7 @@ import React from 'react';
 import { Paragraph } from '@contentful/f36-components';
 //import { /* useCMA, */ useSDK } from '@contentful/react-apps-toolkit';
 
-const AssetReferenceMany = () => {
+const MediaReference = () => {
   //const sdk = useSDK();
   /*
      To use the cma, inject it as follows.
@@ -14,7 +14,7 @@ const AssetReferenceMany = () => {
   // reuse Contentful's editor components
   // -> https://www.contentful.com/developers/docs/extensibility/field-editors/
 
-  return <Paragraph>AssetReferenceMany </Paragraph>;
+  return <Paragraph>MediaReference </Paragraph>;
 };
 
-export default AssetReferenceMany;
+export default MediaReference;
