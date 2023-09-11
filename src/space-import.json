@@ -1,0 +1,3977 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "entryEditor",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T06:47:18.091Z",
+        "updatedAt": "2023-09-07T12:57:56.901Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-09-07T12:57:56.901Z",
+        "firstPublishedAt": "2023-09-07T06:47:18.505Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Entry Editor",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "sidebarWidget",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T06:48:45.438Z",
+        "updatedAt": "2023-09-07T06:49:03.074Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-09-07T06:49:03.074Z",
+        "firstPublishedAt": "2023-09-07T06:48:45.783Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Sidebar Widget",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "jsonObject",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T06:55:56.787Z",
+        "updatedAt": "2023-09-07T06:55:57.150Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-09-07T06:55:57.150Z",
+        "firstPublishedAt": "2023-09-07T06:55:57.150Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "json Object",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "jsonObject",
+          "name": "json Object",
+          "type": "Object",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "shortText",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T12:51:55.064Z",
+        "updatedAt": "2023-09-07T12:53:14.747Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-09-07T12:53:14.747Z",
+        "firstPublishedAt": "2023-09-07T12:51:55.544Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Short Text",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "shortText",
+          "name": "short Text",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "longText",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T12:56:05.549Z",
+        "updatedAt": "2023-09-07T12:56:17.607Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-09-07T12:56:17.607Z",
+        "firstPublishedAt": "2023-09-07T12:56:06.067Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Long Text",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "longText",
+          "name": "Long Text",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "shortTextList",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T12:58:35.097Z",
+        "updatedAt": "2023-09-07T12:58:48.185Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-09-07T12:58:48.185Z",
+        "firstPublishedAt": "2023-09-07T12:58:35.431Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Short Text List",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "shortTextList",
+          "name": "short text list",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "richText",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T13:02:23.860Z",
+        "updatedAt": "2023-09-07T13:02:24.266Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-09-07T13:02:24.266Z",
+        "firstPublishedAt": "2023-09-07T13:02:24.266Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Rich Text",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "richText",
+          "name": "Rich Text",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code",
+                "superscript",
+                "subscript"
+              ],
+              "message": "Only bold, italic, underline, code, superscript, and subscript marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "table",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, table, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "numberInteger",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T13:08:24.308Z",
+        "updatedAt": "2023-09-07T13:08:34.940Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-09-07T13:08:34.940Z",
+        "firstPublishedAt": "2023-09-07T13:08:24.604Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Number Integer",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "numberInteger",
+          "name": "number integer",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "numberDecimal",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T13:12:42.017Z",
+        "updatedAt": "2023-09-07T13:12:55.211Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-09-07T13:12:55.211Z",
+        "firstPublishedAt": "2023-09-07T13:12:42.382Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Number Decimal",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "numberDecimal",
+          "name": "number decimal",
+          "type": "Number",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "dateAndTime",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T13:14:19.703Z",
+        "updatedAt": "2023-09-07T13:14:31.270Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-09-07T13:14:31.270Z",
+        "firstPublishedAt": "2023-09-07T13:14:20.154Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Date and Time",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "dateAndTime",
+          "name": "date and time",
+          "type": "Date",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "boolean",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T13:16:30.454Z",
+        "updatedAt": "2023-09-07T13:16:41.137Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-09-07T13:16:41.137Z",
+        "firstPublishedAt": "2023-09-07T13:16:30.890Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Boolean",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "boolean",
+          "name": "boolean",
+          "type": "Boolean",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "location",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T13:18:13.735Z",
+        "updatedAt": "2023-09-07T13:18:23.778Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-09-07T13:18:23.778Z",
+        "firstPublishedAt": "2023-09-07T13:18:14.095Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Location",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "location",
+          "name": "location",
+          "type": "Location",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "entryReference",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T13:21:23.792Z",
+        "updatedAt": "2023-09-07T13:21:39.919Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-09-07T13:21:39.919Z",
+        "firstPublishedAt": "2023-09-07T13:21:24.163Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Entry Reference",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "entryReference",
+          "name": "entry reference",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "entryReferenceMany",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T13:31:05.147Z",
+        "updatedAt": "2023-09-07T13:31:13.307Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-09-07T13:31:13.307Z",
+        "firstPublishedAt": "2023-09-07T13:31:05.519Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Entry Reference Many",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "entryReferenceMany",
+          "name": "entry reference many",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "mediaReference",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T13:32:58.521Z",
+        "updatedAt": "2023-09-07T13:33:06.629Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-09-07T13:33:06.629Z",
+        "firstPublishedAt": "2023-09-07T13:32:58.997Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Media Reference",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "mediaReference",
+          "name": "media reference",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "mediaReferenceMany",
+        "type": "ContentType",
+        "createdAt": "2023-09-07T13:34:43.877Z",
+        "updatedAt": "2023-09-07T13:34:54.473Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-09-07T13:34:54.473Z",
+        "firstPublishedAt": "2023-09-07T13:34:44.257Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        }
+      },
+      "displayField": "internalName",
+      "name": "Media Reference Many",
+      "description": "",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "mediaReferenceMany",
+          "name": "media reference many",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Asset"
+          }
+        }
+      ]
+    }
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2023-09-07T06:47:18.642Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T12:57:57.621Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "entryEditor",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2023-09-07T06:48:45.901Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T06:49:03.697Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "sidebarWidget",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "settings": {
+          },
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "settings": {
+          },
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "settings": {
+          },
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "settings": {
+          },
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "settings": {
+          },
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2023-09-07T06:55:57.298Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T06:55:57.885Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "jsonObject",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "jsonObject",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2023-09-07T12:51:55.693Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T12:53:15.369Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "shortText",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "shortText",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2023-09-07T12:56:06.230Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T12:56:18.208Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "longText",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "settings": {
+          },
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "settings": {
+          },
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "settings": {
+          },
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "settings": {
+          },
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "settings": {
+          },
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "longText",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2023-09-07T12:58:35.527Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T12:58:48.710Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "shortTextList",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "shortTextList",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2023-09-07T13:02:24.459Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T13:02:25.399Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "richText",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "richText",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2023-09-07T13:08:24.720Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T13:08:35.588Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "numberInteger",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "numberInteger",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2023-09-07T13:12:42.531Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T13:12:55.854Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "numberDecimal",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "numberDecimal",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2023-09-07T13:14:20.254Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T13:14:31.852Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "dateAndTime",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "dateAndTime",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2023-09-07T13:16:31.021Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T13:16:42.364Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "boolean",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "boolean",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2023-09-07T13:18:14.265Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T13:18:24.361Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "location",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "location",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2023-09-07T13:21:24.271Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T13:21:40.593Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "entryReference",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "entryReference",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2023-09-07T13:31:05.613Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T13:31:13.980Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "entryReferenceMany",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "entryReferenceMany",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2023-09-07T13:32:59.128Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T13:33:07.249Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "mediaReference",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "mediaReference",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zpan99chi5vv",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2023-09-07T13:34:44.381Z",
+        "createdBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-09-07T13:34:55.582Z",
+        "updatedBy": {
+          "sys": {
+            "id": "09aSHkV2GY0RhTIAKPpefS",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "mediaReferenceMany",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "editors": [
+        {
+          "settings": {
+          },
+          "widgetId": "default-editor",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "reference-tree",
+          "widgetNamespace": "editor-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "tags-editor",
+          "widgetNamespace": "editor-builtin"
+        }
+      ],
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "mediaReferenceMany",
+          "widgetId": "30mn7LiLc9Jg83aCW0nwWq",
+          "widgetNamespace": "app"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "s93WHxaXQB1c2E0sd8F7l",
+        "type": "Entry",
+        "createdAt": "2023-09-07T06:47:37.825Z",
+        "updatedAt": "2023-09-07T06:47:56.130Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-09-07T06:47:56.130Z",
+        "firstPublishedAt": "2023-09-07T06:47:56.130Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "entryEditor"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Entry Editor"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "1dkVtefv2w51qu1W1qEzXJ",
+        "type": "Entry",
+        "createdAt": "2023-09-07T06:49:35.798Z",
+        "updatedAt": "2023-09-07T06:49:43.801Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-09-07T06:49:43.801Z",
+        "firstPublishedAt": "2023-09-07T06:49:43.801Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sidebarWidget"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Sidebar Widget"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "4SSsb1ismeg3I1xjRh0YMc",
+        "type": "Entry",
+        "createdAt": "2023-09-07T06:56:34.323Z",
+        "updatedAt": "2023-09-07T06:56:41.507Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-09-07T06:56:41.507Z",
+        "firstPublishedAt": "2023-09-07T06:56:41.507Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "jsonObject"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "json Object"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "43GopV8hvIkN0WwePFDpdR",
+        "type": "Entry",
+        "createdAt": "2023-09-07T12:53:21.884Z",
+        "updatedAt": "2023-09-07T12:53:30.055Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-09-07T12:53:30.055Z",
+        "firstPublishedAt": "2023-09-07T12:53:30.055Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "shortText"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Short Text"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "5TZFOr0EPUQqa51o2jQ4R7",
+        "type": "Entry",
+        "createdAt": "2023-09-07T12:56:23.479Z",
+        "updatedAt": "2023-09-07T13:17:33.003Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-09-07T13:17:33.003Z",
+        "firstPublishedAt": "2023-09-07T13:17:22.650Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "longText"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Long Text"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "4cp9FJ5IAKwd4SoV1hNjrA",
+        "type": "Entry",
+        "createdAt": "2023-09-07T12:58:53.150Z",
+        "updatedAt": "2023-09-07T13:17:22.634Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-09-07T13:17:22.634Z",
+        "firstPublishedAt": "2023-09-07T13:17:22.634Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "shortTextList"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Short Text List"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "2WWBLE1ZKaskhbPP5ndEyl",
+        "type": "Entry",
+        "createdAt": "2023-09-07T13:02:38.437Z",
+        "updatedAt": "2023-09-07T13:02:59.509Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-09-07T13:02:59.509Z",
+        "firstPublishedAt": "2023-09-07T13:02:59.509Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "richText"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Rich Text"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "3SwuvPK1DTagXUrw0Avk8l",
+        "type": "Entry",
+        "createdAt": "2023-09-07T13:08:41.476Z",
+        "updatedAt": "2023-09-07T13:17:22.617Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-09-07T13:17:22.617Z",
+        "firstPublishedAt": "2023-09-07T13:17:22.617Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "numberInteger"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Number Integer"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "7IN9xfivNp8P7aNn3mDtJ",
+        "type": "Entry",
+        "createdAt": "2023-09-07T13:13:01.833Z",
+        "updatedAt": "2023-09-07T13:17:22.579Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-09-07T13:17:22.579Z",
+        "firstPublishedAt": "2023-09-07T13:17:22.579Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "numberDecimal"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Number Decimal"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "41hwT54yDAfBzyksZf4h0u",
+        "type": "Entry",
+        "createdAt": "2023-09-07T13:14:36.082Z",
+        "updatedAt": "2023-09-07T13:16:51.974Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-09-07T13:16:51.974Z",
+        "firstPublishedAt": "2023-09-07T13:16:51.974Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "dateAndTime"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Date and Time"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "50X5eSYHvd6ljvASAgLnDm",
+        "type": "Entry",
+        "createdAt": "2023-09-07T13:16:56.132Z",
+        "updatedAt": "2023-09-07T13:17:03.514Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-09-07T13:17:03.514Z",
+        "firstPublishedAt": "2023-09-07T13:17:03.514Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "boolean"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Boolean"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "kmQzpTX5MxTAz2xf1xATF",
+        "type": "Entry",
+        "createdAt": "2023-09-07T13:18:29.621Z",
+        "updatedAt": "2023-09-11T08:12:49.692Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-09-11T08:12:49.692Z",
+        "firstPublishedAt": "2023-09-11T08:12:49.692Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "location"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Location"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "3JktKzJ3dM93cdktCK8e3t",
+        "type": "Entry",
+        "createdAt": "2023-09-07T13:21:44.692Z",
+        "updatedAt": "2023-09-07T13:30:29.057Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-09-07T13:30:29.057Z",
+        "firstPublishedAt": "2023-09-07T13:30:29.057Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "entryReference"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Entry Reference"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "7HfJdgcLutPN4E6QJRwVoZ",
+        "type": "Entry",
+        "createdAt": "2023-09-07T13:31:18.014Z",
+        "updatedAt": "2023-09-07T13:31:27.556Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-09-07T13:31:27.556Z",
+        "firstPublishedAt": "2023-09-07T13:31:27.556Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "entryReferenceMany"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Entry Reference Many"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "3NtztLF4wIZeV70zZ6IVHJ",
+        "type": "Entry",
+        "createdAt": "2023-09-07T13:33:13.264Z",
+        "updatedAt": "2023-09-11T08:12:49.657Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-09-11T08:12:49.657Z",
+        "firstPublishedAt": "2023-09-11T08:12:49.657Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "mediaReference"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Media Reference"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "id": "4Cn1vW98WlQjQFSJMdeiT0",
+        "type": "Entry",
+        "createdAt": "2023-09-07T13:35:02.063Z",
+        "updatedAt": "2023-09-07T13:38:21.380Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-09-07T13:38:21.380Z",
+        "firstPublishedAt": "2023-09-07T13:38:21.380Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "mediaReferenceMany"
+          }
+        }
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Media Reference Many"
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "2q0HPM2w68bCpfVjw2wGKT",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zpan99chi5vv"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "c0fb62a3-ae70-482c-98be-2eba48e76120"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "createdAt": "2023-08-23T12:34:22Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "09aSHkV2GY0RhTIAKPpefS"
+          }
+        },
+        "updatedAt": "2023-08-23T12:34:22Z"
+      }
+    }
+  ]
+}
