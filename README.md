@@ -6,61 +6,35 @@ In the project directory, you can run:
 
 #### `npm start`
 
-Creates or updates your app definition in Contentful, and runs the app in development mode.
-Open your app to view it in the browser.
+## What does it do?
+Simple app that allows you to run any field type from localhost. Each field type, and general location is defined as a separate component: 
+- Config Screen
+- Page
+- Home
+- Sidebar
+- Field
+  - Boolean
+  - DateTime
+  - Entry Reference
+  - Entry Reference Many
+  - JSON Object
+  - Location
+  - Long Text
+  - Media Reference
+  - Media Reference Many
+  - Number Decimal
+  - Number Integer
+  - Rich Text
+  - Short Text
+  - Short Text List
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+<img width="241" alt="image" src="https://github.com/PattoCF/all-things-localhost/assets/59477906/45863730-1cec-4693-b9ac-394d845dd149">
 
-#### `npm run build`
 
-Builds the app for production to the `build` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The repository includes a content model and entries for the above use cases in the space-import.json. The content types have an internal name plus field type pre-configured:
+![image](https://github.com/PattoCF/all-things-localhost/assets/59477906/cbc30bf4-27a9-4078-a475-cd2b7071d709)
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
-
-#### `npm run upload`
-
-Uploads the build folder to contentful and creates a bundle that is automatically activated.
-The command guides you through the deployment process and asks for all required arguments.
-Read [here](https://www.contentful.com/developers/docs/extensibility/app-framework/create-contentful-app/#deploy-with-contentful) for more information about the deployment process.
-
-#### `npm run upload-ci`
-
-Similar to `npm run upload` it will upload your app to contentful and activate it. The only difference is  
-that with this command all required arguments are read from the environment variables, for example when you add
-the upload command to your CI pipeline.
-
-For this command to work, the following environment variables must be set:
-
-- `CONTENTFUL_ORG_ID` - The ID of your organization
-- `CONTENTFUL_APP_DEF_ID` - The ID of the app to which to add the bundle
-- `CONTENTFUL_ACCESS_TOKEN` - A personal [access token](https://www.contentful.com/developers/docs/references/content-management-api/#/reference/personal-access-tokens)
-
-## Libraries to use
-
-To make your app look and feel like Contentful use the following libraries:
-
-- [Forma 36](https://f36.contentful.com/) – Contentful's design system
-- [Contentful Field Editors](https://www.contentful.com/developers/docs/extensibility/field-editors/) – Contentful's field editor React components
-
-## Using the `contentful-management` SDK
-
-In the default create contentful app output, a contentful management client is
-passed into each location. This can be used to interact with Contentful's
-management API. For example
-
-```js
-// Use the client
-cma.locale.getMany({}).then((locales) => console.log(locales));
-```
-
-Visit the [`contentful-management` documentation](https://www.contentful.com/developers/docs/extensibility/app-framework/sdk/#using-the-contentful-management-library)
-to find out more.
-
-## Learn More
-
-[Read more](https://www.contentful.com/developers/docs/extensibility/app-framework/create-contentful-app/) and check out the video on how to use the CLI.
-
-Create Contentful App uses [Create React App](https://create-react-app.dev/). You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started) and how to further customize your app.
+All you need to do: 
+1. Install the app
+2. Import the content model
+3. Start development for any field type from localhost
